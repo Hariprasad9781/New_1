@@ -1,3 +1,4 @@
-str1=Hariprasad
-for i in len(str1[::-1])
-print(i)
+input_str = "litmus7"
+
+for i in range(1, len(input_str) + 1):
+    print( input_str [:i])
